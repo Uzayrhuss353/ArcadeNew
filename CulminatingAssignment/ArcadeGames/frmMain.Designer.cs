@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.StartGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // StartGame
             // 
-            this.button1.Location = new System.Drawing.Point(191, 84);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(319, 174);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Start Game ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.StartGame.Location = new System.Drawing.Point(272, 77);
+            this.StartGame.Name = "StartGame";
+            this.StartGame.Size = new System.Drawing.Size(273, 205);
+            this.StartGame.TabIndex = 0;
+            this.StartGame.Text = "Start Game";
+            this.StartGame.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.StartGame);
             this.Name = "frmMain";
             this.Text = "frmMain";
             this.Load += new System.EventHandler(this.frmMain_Load);
@@ -55,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button StartGame;
     }
 }
 
